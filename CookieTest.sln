@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieTest", "CookieTest\CookieTest.csproj", "{1695E3C9-9208-424F-9BB4-114B1D2E4BFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1695E3C9-9208-424F-9BB4-114B1D2E4BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1695E3C9-9208-424F-9BB4-114B1D2E4BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1695E3C9-9208-424F-9BB4-114B1D2E4BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1695E3C9-9208-424F-9BB4-114B1D2E4BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
