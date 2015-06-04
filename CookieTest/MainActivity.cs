@@ -13,8 +13,6 @@ namespace CookieTest
 	[Activity(Label = "CookieTest", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-//		int count = 1;
-
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
@@ -28,8 +26,14 @@ namespace CookieTest
 			
 			button.Click += delegate
 			{
-				CookieManager.Instance.RemoveAllCookie();
-//				button.Text = string.Format("{0} clicks!", count++);
+				try
+				{
+					CookieManager.Instance.RemoveAllCookie();
+				}
+				catch (Exception ex)
+				{
+					Toast.MakeText(this, ex.ToString(), ToastLength.Long);
+				}
 			};
 		}
 	}
